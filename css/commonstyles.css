@@ -47,18 +47,57 @@ body {
 .logo {
   font-family: "Raleway", sans-serif;
   color: var(--black);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30, 52px;
 }
 
 .logo-web {
   color: var(--blue-text);
 }
-.menu-nav {
-}
 
-.footer {
+.logo-studio {
+  color: var(--white-text);
+  /* тимчасово */
+  background-color: coral;
+}
+.menu-nav {
 }
 
 .link:hover,
 .link:focus {
   color: var(--blue-text);
+}
+
+.contacts-header {
+}
+
+.contacts-header-items {
+  color: var(--gray-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer {
+}
+
+.adress {
+}
+
+.adress-text {
+  color: var(--white-text);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contacts {
+}
+
+.contacts-items {
+  color: var(--gray-light);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
 }

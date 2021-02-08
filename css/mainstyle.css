@@ -1,75 +1,43 @@
-.header {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-  border: 1px solid #ECECEC
-  background: #FFFFFF;
-
+.centrum {
+  /* тимчасово */
+  background-color: red;
+}
+.centrum-title {
+  color: var(--white-text);
+}
+.centrum-btn {
+  color: var(--white-text);
 }
 
-.logo{
-  position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
-letter-spacing: 0.03em;
-color: #2196F3;
-padding-top: 24px;
-padding-bottom: 25px;
+.features {
+}
+.features-items {
+}
+.features-items-title {
+  color: var(--black-text);
+}
+.features-items-text {
+  color: var(--gray-text);
 }
 
-.menu-nav{
-position: absolute;
-width: 294px;
-height: 16px;
-left: 453px;
-top: 32px;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 0.02em;
-text-align: left;
-padding: 32px;
-margin: auto;
+.servises {
+}
+.servises-title {
+  color: var(--black-text);
+}
+.servises-items {
 }
 
-.email{
-position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 0.02em;
-text-align: left;
+.team {
 }
-
-.tel{
-position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 0.02em;
-text-align: left;
+.team-title {
+  color: var(--black-text);
+}
+.team-items {
+}
+.team-items-name {
+  color: var(--black-text);
+}
+.team-items-text {
+  color: var(--gray-text);
 }

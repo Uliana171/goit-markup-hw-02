@@ -1,3 +1,17 @@
+/* перемінні кольорів = всі кольори на сторінці, :root означає застосування для всього документу */
+:root {
+  --blue-text: rgba(33, 150, 243, 1);
+
+  --black: rgba(0, 0, 0, 1);
+  --black-text: rgba(33, 33, 33, 1);
+
+  --gray-text: rgba(117, 117, 117, 1);
+  --gray-light: rgba(255, 255, 255, 0.6);
+
+  --white-text: rgba(255, 255, 255, 1);
+}
+
+/* зробити невидимим заголовок */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -11,7 +25,33 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+/* щоб прибрати крапки із списка */
 ul {
   list-style: none;
 }
-/* щоб прибрати крапки із списка */
+
+img{
+  
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--black);
+}
+
+.logo-web {
+  color: var(--blue-text);
+}
+.menu-nav {
+}
+
+.footer {
+}

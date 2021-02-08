@@ -31,15 +31,17 @@ ul {
   list-style: none;
 }
 
-img{
-  
+img {
+  display: block;
+  max: width 100%;
+  height: auto;
 }
 
 body {
   font-family: "Roboto", sans-serif;
 }
 
-.header {
+.page-header {
 }
 
 .logo {
@@ -54,4 +56,9 @@ body {
 }
 
 .footer {
+}
+
+.link:hover,
+.link:focus {
+  color: var(--blue-text);
 }

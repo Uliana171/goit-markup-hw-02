@@ -9,6 +9,8 @@
   --gray-light: rgba(255, 255, 255, 0.6);
 
   --white-text: rgba(255, 255, 255, 1);
+
+  --grphite-backraund: rgba(47, 48, 58, 1);
 }
 
 /* зробити невидимим заголовок */
@@ -44,29 +46,43 @@ body {
 .page-header {
 }
 
+/* дизайн логотипу */
 .logo {
   font-family: "Raleway", sans-serif;
   color: var(--black);
   font-weight: 700;
   font-size: 26px;
-  line-height: 30, 52px;
 }
 
-.logo-web {
+.logo > .web {
   color: var(--blue-text);
 }
 
-.logo-studio {
+.logo > .studio {
   color: var(--white-text);
-  /* тимчасово */
-  background-color: coral;
 }
+
+.cont {
+  color: var(--gray-text);
+}
+
+/* колір силок навігації */
+.nav {
+  color: var(--black-text);
+}
+
 .menu-nav {
 }
 
+/* всі посилання при ховері */
 .link:hover,
-.link:focus {
+.link:focus,
+.link:active {
   color: var(--blue-text);
+}
+
+.link {
+  text-decoration: none;
 }
 
 .contacts-header {
@@ -76,30 +92,32 @@ body {
   color: var(--gray-text);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
 }
 
-.footer {
+footer {
+  background-color: var(--grphite-backraund);
 }
 
 .adress {
+  color: var(--white-text);
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .adress-text {
   color: var(--white-text);
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  /* тимчасово */
-  background-color: chocolate;
+  font-style: normal;
 }
 
-.contacts {
+.contfooter {
+  color: var(--gray-light);
 }
 
 .contacts-items {
   color: var(--gray-light);
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  font-style: normal;
 }

@@ -69,9 +69,14 @@ body {
 /* колір силок навігації */
 .nav {
   color: var(--black-text);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .menu-nav {
+}
+.menu-nav-items {
 }
 
 /* всі посилання при ховері */
